@@ -1,5 +1,5 @@
 body{
-    background-color: #E3FDFD;
+
     text-align: center;
     font-family: 'Scramento';
 }
@@ -9,13 +9,11 @@ body{
 .bcloud{
   margin-right: 400px;
 }
-/* .master_name{
-} */
 .mountain{
   margin-top: 84px;
 }
 .main_div{
-   margin-top: 108px;
+   padding-top: 108px;
 }
 h1{
   font-family: 'Sacramento', cursive;
