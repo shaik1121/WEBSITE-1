@@ -1,6 +1,7 @@
 body{
     background-color: #E3FDFD;
     text-align: center;
+    font-family: 'Scramento';
 }
 .tcloud{
  margin-left: 400px;
@@ -15,4 +16,10 @@ body{
 }
 .main_div{
    margin-top: 108px;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+}
+p{
+  font-family: 'EB Garamond', serif;
 }
