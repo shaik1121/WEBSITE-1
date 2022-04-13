@@ -22,4 +22,7 @@ font-family: 'EB Garamond', serif;
 }
 .top-container{
   background-color:#E3FDFD ;
+  margin-top: -10px;
+  margin-right: -10px;
+  margin-left: -10px;
 }
