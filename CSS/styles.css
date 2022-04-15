@@ -3,26 +3,49 @@ body{
   font-family: 'Scramento';
 }
 .tcloud{
-margin-left: 400px;
+margin-left: 43.75rem;
 }
 .bcloud{
-margin-right: 400px;
+margin-right: 43.75rem;
 }
 .mountain{
-margin-top: 29px;
+margin-top: -1.5625rem;
 }
 .main_div{
  padding-top: 108px;
 }
 h1{
-font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  /* font-family: 'Sacramento', cursive; */
+  font-family: 'Pacifico', cursive;
+  color: #66BFBF;
+}
+h2{
+  color: #66BFBF;
+}
+h3{
+  color: #11999E;
 }
 p{
 font-family: 'EB Garamond', serif;
 }
 .top-container{
-  background-color:#E3FDFD ;
-  margin-top: -10px;
-  margin-right: -10px;
-  margin-left: -10px;
+  background-color:#f2feff ;
+  margin-top: -8px;
+  margin-right: -8px;
+  margin-left: -8px;
+}
+.middle{
+  /* background-color: #393E46; */
+  margin-right: -1px;
+  margin-left: -20px;
+}
+.bottom{
+  background-color: #65bfbf;
+  margin-right: -6px;
+  margin-left: -6px;
+  margin-bottom: -20px;
+}
+.footer-link{
+  color: #11999e;
 }
