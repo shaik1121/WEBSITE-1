@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test</title>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1064.0" data-gr-ext-installed>
+  hello
+  <script>
+    mendeleyWebImporter = {
+      downloadPdfs(e,t) { return this._call('downloadPdfs', [e,t]); },
+      open() { return this._call('open', []); },
+      setLoginToken(e) { return this._call('setLoginToken', [e]); },
+      _call(methodName, methodArgs) {
+      const id = Math.random();
+      window.postMessage({ id, token: '0.6694360243444144', methodName, methodArgs }, 'https://jetbra.in');
+      return new Promise(resolve => {
+      const listener = window.addEventListener('message', event => {
+        const data = event.data;
+        if (typeof data !== 'object' || !('result' in data) || data.id !== id) return;
+        window.removeEventListener('message', listener);
+        resolve(data.result);
+      });
+    });
+  }
+};
+  </script>
+</body>
+</html>
