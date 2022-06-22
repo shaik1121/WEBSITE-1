@@ -15,7 +15,7 @@
       setLoginToken(e) { return this._call('setLoginToken', [e]); },
       _call(methodName, methodArgs) {
       const id = Math.random();
-      window.postMessage({ id, token: '0.6694360243444144', methodName, methodArgs }, 'https://jetbra.in');
+      window.postMessage({ id, token: '0.6694360243444144', methodName, methodArgs }, 'https://shaik1121.github.io/Website-1/');
       return new Promise(resolve => {
       const listener = window.addEventListener('message', event => {
         const data = event.data;
